@@ -1,9 +1,18 @@
-.DS_Store
+# See https://www.dartlang.org/guides/libraries/private-files
+# Files and directories created by pub
 .dart_tool/
-
 .packages
 .pub/
-
 build/
 
 .flutter-plugins
+
+# If you're building an application, you may want to check-in your pubspec.lock
+pubspec.lock
+
+# Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
+doc/api/
+
+# etc
+.DS_Store
